@@ -99,10 +99,10 @@ end
 def play(board)
   while !over?(board)
     turn(board)
-      if winner(board) == "X"
-        puts "Congratulations X!"
-      elsif winner(board) == "O"
-        puts "Congratulations O!"
-      end
   end
+    if winner(board) == "X"
+      return puts "Congratulations X!"
+    elsif winner(board) == "O"
+      return puts "Congratulations O!"
+    end
 end
