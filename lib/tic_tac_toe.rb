@@ -105,6 +105,6 @@ def play(board)
   elsif winner(board) == "O"
     return puts "Congratulations O!"
   elsif draw?(board)
-    return "Cat's Game!"
+    return puts "Cat's Game!"
   end
 end
